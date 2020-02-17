@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(200,200,200); */
+}
+/* global */
+/* utility */
+
+.padded {
+  padding: 5%;
+}
+.center {
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.grey-background {
+  background-color: lightgrey;
+}
+.button {
+  border: 2px solid grey;
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+}
+/* typography */
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* specific */
+header h1 a, header nav a {
+  color: grey;
+  text-decoration: none;
+  font-weight:500;
+}
+header nav a {
+  padding: 5px;
+}
+.banner {
+  min-height: 80vh;
+  background-image: url(images/leaves.jpg);
+  background-size: cover;
+  color: white;
+}
+.banner h2 {
+  font-size: 4rem;
+}
+.pug-bg {
+  background-image: url(images/pug.jpg);
+  background-size: cover;
+  background-position: 50% 49%;
+}
+.bedroom {
+  background-image: url(images/bedroom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.grey-background {
+  background-color: lightgrey;
+}
